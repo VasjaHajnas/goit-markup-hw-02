@@ -2,6 +2,7 @@
   --accent-color: #2e2f42;
   --logo-color: #4d5ae5;
   --main-portfolio-color: #f4f4fd;
+  --main-portfolio-background-color: #f4f4fd;
 }
 
 body {
@@ -120,21 +121,12 @@ button {
   background: #404bbf;
 }
 
-
 /**
   |============================
   | Benefits styles
   |============================
 */
 .benefist {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
-}
-
-.benefist-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -174,7 +166,7 @@ button {
   |============================
 */
 .team {
-  color: var(--main-portfolio-color);
+  color: var(--main-portfolio-background-color);
 }
 .team-item {
   background-color: #ffffff;
@@ -246,7 +238,7 @@ button {
   |============================
 */
 .nav-btn {
-  color: var(--main-portfolio-color);
+  color: var(--main-portfolio-background-color);
 }
 
 .nav-btn-text {
