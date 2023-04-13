@@ -1,6 +1,7 @@
 :root {
   --accent-color: #2e2f42;
   --logo-color: #4d5ae5;
+  --main-portfolio-color: #f4f4fd;
 }
 
 body {
@@ -124,6 +125,14 @@ button {
   | Benefits styles
   |============================
 */
+.benefist {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
 .benefist-header {
   font-weight: 500;
   font-size: 20px;
@@ -164,7 +173,7 @@ button {
   |============================
 */
 .team {
-  background: #f4f4fd;
+  color: var(--main-portfolio-color);
 }
 .team-item {
   background-color: #ffffff;
@@ -211,13 +220,13 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--main-portfolio-color);
 }
 .footer-logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.67;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
@@ -227,7 +236,7 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #f4f4fd;
+  color: var(--main-portfolio-color);
 }
 
 /**
@@ -236,7 +245,7 @@ button {
   |============================
 */
 .nav-btn {
-  color: #f4f4fd;
+  color: var(--main-portfolio-color);
 }
 
 .nav-btn-text {
