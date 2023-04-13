@@ -1,10 +1,11 @@
 :root {
   --accent-color: #2e2f42;
+  --logo-color: #4d5ae5;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  background-color: #ffffff;
 }
 
 button {
@@ -39,13 +40,17 @@ button {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
 }
 .header-logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.67;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--accent-color);
 }
 
@@ -53,6 +58,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 
@@ -67,6 +73,7 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -87,11 +94,15 @@ button {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .hero-btn {
-  background: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
 }
 
 .hero-btn-text {
@@ -111,6 +122,13 @@ button {
   | Benefits styles
   |============================
 */
+.benefist-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .benefist-list {
   font-weight: 500;
   font-size: 20px;
@@ -120,7 +138,8 @@ button {
 .benefist-item {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 /**
@@ -131,7 +150,10 @@ button {
 .function-item {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--accent-color);
 }
 /**
@@ -146,7 +168,10 @@ button {
 .team-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--accent-color);
 }
 
@@ -154,12 +179,15 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 .team-list-item {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
   color: #434455;
 }
 /**
@@ -176,6 +204,8 @@ button {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
 }
 .footer-logo-studio {
@@ -183,7 +213,9 @@ button {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.67;
-  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
 }
 
 .footer-item {
@@ -203,10 +235,12 @@ button {
 }
 
 .nav-btn-text {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #4d5ae5;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
 }
 
 .nav-btn:hover,
@@ -225,6 +259,7 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 
@@ -232,5 +267,6 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
