@@ -166,7 +166,7 @@ button {
   |============================
 */
 .team {
-  color: var(--main-portfolio-background-color);
+  background-color: var(--main-portfolio-background-color);
 }
 .team-item {
   background-color: #ffffff;
@@ -238,7 +238,7 @@ button {
   |============================
 */
 .nav-btn {
-  color: var(--main-portfolio-background-color);
+  background-color: var(--main-portfolio-background-color);
 }
 
 .nav-btn-text {
