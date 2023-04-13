@@ -1,0 +1,236 @@
+:root {
+  --accent-color: #2e2f42;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+
+button {
+  cursor: pointer;
+}
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+.list {
+  list-style: none;
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+.header {
+  width: 1440px;
+  height: 0.05;
+  background: #ffffff;
+}
+
+.header-logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #4d5ae5;
+}
+.header-logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--accent-color);
+}
+
+.header-nav-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--accent-color);
+}
+
+.modal-link:hover,
+.modal-link:focus {
+  text-decoration: underline;
+  color: #404bbf;
+}
+
+.header-contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.modal-contact:hover,
+.modal-contact:focus {
+  color: #404bbf;
+}
+
+/**
+  |============================
+  | Hero styles
+  |============================
+*/
+.hero {
+  background: var(--accent-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #ffffff;
+}
+
+.hero-btn {
+  background: #4d5ae5;
+}
+
+.hero-btn-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #404bbf;
+}
+
+/**
+  |============================
+  | Benefits styles
+  |============================
+*/
+.benefist-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--accent-color);
+}
+.benefist-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  color: #434455;
+}
+/**
+  |============================
+  | Function styles
+  |============================
+*/
+.function-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--accent-color);
+}
+/**
+  |============================
+  | Team styles
+  |============================
+*/
+.team {
+  background: #f4f4fd;
+}
+
+.team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--accent-color);
+}
+
+.team-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--accent-color);
+}
+.team-list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+.footer {
+  background: var(--accent-color);
+}
+
+.footer-logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #f4f4fd;
+}
+.footer-logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #4d5ae5;
+}
+
+.footer-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+}
+
+/**
+  |============================
+  | Navigation
+  |============================
+*/
+.nav-btn {
+  color: #f4f4fd;
+}
+
+.nav-btn-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4d5ae5;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
+
+/**
+  |============================
+  | Services
+  |============================
+*/
+
+.services-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--accent-color);
+}
+
+.services-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
