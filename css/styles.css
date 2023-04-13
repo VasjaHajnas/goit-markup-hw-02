@@ -43,7 +43,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var (--logo-color);
+  color: var(--logo-color);
 }
 .header-logo-studio {
   font-family: "Raleway", sans-serif;
@@ -52,7 +52,7 @@ button {
   line-height: 1.67;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var (--accent-color);
+  color: var(--accent-color);
 }
 
 .header-nav-list {
@@ -60,7 +60,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var (--accent-color);
+  color: var(--accent-color);
 }
 
 .modal-link:hover,
@@ -89,7 +89,7 @@ button {
   |============================
 */
 .hero {
-  background: var (--accent-color);
+  background: var(--accent-color);
 }
 .hero-title {
   font-weight: 700;
@@ -103,7 +103,7 @@ button {
 .hero-btn {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
-  color: var (--logo-color);
+  color: var(--logo-color);
   background-color: #4d5ae5;
 }
 
@@ -135,7 +135,7 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var (--accent-color);
+  color: var(--accent-color);
 }
 .benefist-item {
   font-weight: 400;
@@ -156,7 +156,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var (--accent-color);
+  color: var(--accent-color);
 }
 /**
   |============================
@@ -177,7 +177,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var (--accent-color);
+  color: var(--accent-color);
 }
 
 .team-list {
@@ -185,7 +185,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var (--accent-color);
+  color: var(--accent-color);
 }
 .team-list-item {
   font-weight: 400;
@@ -201,7 +201,7 @@ button {
   |============================
 */
 .footer {
-  background: var (--accent-color);
+  background: var(--accent-color);
 }
 
 .footer-logo-studio {
@@ -220,7 +220,7 @@ button {
   line-height: 1.67;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var (--logo-color);
+  color: var(--logo-color);
 }
 
 .footer-item {
@@ -245,7 +245,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var (--logo-color);
+  color: var(--logo-color);
 }
 
 .nav-btn:hover,
@@ -265,7 +265,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var (--accent-color);
+  color: var(--accent-color);
 }
 
 .services-item {
