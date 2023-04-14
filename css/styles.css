@@ -67,7 +67,6 @@ button {
 
 .modal-link:hover,
 .modal-link:focus {
-  text-decoration: underline;
   color: #404bbf;
 }
 
